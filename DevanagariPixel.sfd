@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1680230654
-ModificationTime: 1681332477
+ModificationTime: 1684637180
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -55,7 +55,10 @@ OS2StrikeYPos: 205
 OS2Vendor: '    '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00008003.00000000.00000000.00000000
-Lookup: 260 0 0 "'mark' Mark Positioning in Devanagari2 lookup 0" { "'mark' Mark Positioning in Devanagari2 lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'dev2' <'dflt' > ) ]
+Lookup: 4 0 1 "Irregular" { "Irregular subtable"  } ['liga' ('DFLT' <'dflt' > 'dev2' <'dflt' > 'deva' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "Halved" { "Halved subtable"  } ['liga' ('DFLT' <'dflt' > 'dev2' <'dflt' > 'deva' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "SpecialR" { "SpecialR subtable"  } ['liga' ('DFLT' <'dflt' > 'dev2' <'dflt' > 'deva' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning in Devanagari2 lookup 0" { "'mark' Mark Positioning in Devanagari2 lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'dev2' <'dflt' > 'deva' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ShortTable: maxp 16
@@ -77,7 +80,7 @@ ShortTable: maxp 16
   0
 EndShort
 LangName: 1033 "" "" "Regular" "DevanagariPixel" "" "" "" "" "" "Shankar Sivarajan"
-Encoding: UnicodeBmp
+Encoding: Custom
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -89,10 +92,10 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 174080 87040 58026 0 1048576 58026 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "mark_down" "'mark' Mark Positioning in Devanagari2 lookup 0-1" "mark_up" "'mark' Mark Positioning in Devanagari2 lookup 0-1"
-BeginChars: 65595 152
+BeginChars: 219 156
 
 StartChar: .notdef
-Encoding: 65536 -1 0
+Encoding: 92 -1 0
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -124,7 +127,7 @@ Validated: 5
 EndChar
 
 StartChar: space
-Encoding: 32 32 1
+Encoding: 0 32 1
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -134,7 +137,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00A0
-Encoding: 160 160 2
+Encoding: 1 160 2
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -144,7 +147,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0901
-Encoding: 2305 2305 3
+Encoding: 2 2305 3
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -179,7 +182,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0902
-Encoding: 2306 2306 4
+Encoding: 3 2306 4
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -187,19 +190,19 @@ AnchorPoint: "mark_up" -128 1024 mark 0
 LayerCount: 2
 Fore
 SplineSet
--128 1152 m 1029,0,-1
-0 1152 m 1029,1,-1
--128 1152 m 5,2,-1
- -128 1280 l 5,3,-1
- 0 1280 l 5,4,-1
- 0 1152 l 5,5,-1
- -128 1152 l 5,2,-1
+-128 1152 m 1025,0,-1
+0 1152 m 1025,1,-1
+-128 1152 m 1,2,-1
+ -128 1280 l 1,3,-1
+ 0 1280 l 1,4,-1
+ 0 1152 l 1,5,-1
+ -128 1152 l 1,2,-1
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0903
-Encoding: 2307 2307 5
+Encoding: 4 2307 5
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -221,7 +224,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0904
-Encoding: 2308 2308 6
+Encoding: 5 2308 6
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -314,7 +317,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0905
-Encoding: 2309 2309 7
+Encoding: 6 2309 7
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -385,7 +388,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0906
-Encoding: 2310 2310 8
+Encoding: 7 2310 8
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -472,7 +475,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0907
-Encoding: 2311 2311 9
+Encoding: 8 2311 9
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -529,7 +532,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0908
-Encoding: 2312 2312 10
+Encoding: 9 2312 10
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -600,7 +603,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0909
-Encoding: 2313 2313 11
+Encoding: 10 2313 11
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -651,7 +654,7 @@ Validated: 5
 EndChar
 
 StartChar: uni090A
-Encoding: 2314 2314 12
+Encoding: 11 2314 12
 Width: 1024
 GlyphClass: 1
 Flags: W
@@ -727,7 +730,7 @@ Validated: 5
 EndChar
 
 StartChar: uni090B
-Encoding: 2315 2315 13
+Encoding: 12 2315 13
 Width: 1024
 GlyphClass: 1
 Flags: W
@@ -811,7 +814,7 @@ Validated: 5
 EndChar
 
 StartChar: uni090C
-Encoding: 2316 2316 14
+Encoding: 13 2316 14
 Width: 1024
 GlyphClass: 1
 LayerCount: 2
@@ -884,7 +887,7 @@ Validated: 5
 EndChar
 
 StartChar: uni090D
-Encoding: 2317 2317 15
+Encoding: 14 2317 15
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -956,7 +959,7 @@ Validated: 5
 EndChar
 
 StartChar: uni090E
-Encoding: 2318 2318 16
+Encoding: 15 2318 16
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -1035,7 +1038,7 @@ Validated: 5
 EndChar
 
 StartChar: uni090F
-Encoding: 2319 2319 17
+Encoding: 16 2319 17
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -1092,7 +1095,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0910
-Encoding: 2320 2320 18
+Encoding: 17 2320 18
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -1164,7 +1167,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0911
-Encoding: 2321 2321 19
+Encoding: 18 2321 19
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -1266,7 +1269,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0912
-Encoding: 2322 2322 20
+Encoding: 19 2322 20
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -1375,7 +1378,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0913
-Encoding: 2323 2323 21
+Encoding: 20 2323 21
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -1480,7 +1483,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0914
-Encoding: 2324 2324 22
+Encoding: 21 2324 22
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -1597,7 +1600,7 @@ Validated: 1029
 EndChar
 
 StartChar: ka
-Encoding: 2325 2325 23
+Encoding: 22 2325 23
 Width: 1024
 GlyphClass: 1
 Flags: W
@@ -1617,7 +1620,7 @@ SplineSet
  0 1024 l 1,7,-1
  128 1024 l 1,8,-1
  256 1024 l 1,9,-1
- 384 1024 l 1,10,-1
+ 384 1024 l 5,10,-1
  512 1024 l 1,11,-1
  640 1024 l 1,12,-1
  768 1024 l 1,13,-1
@@ -1671,7 +1674,7 @@ Validated: 5
 EndChar
 
 StartChar: Ka
-Encoding: 2326 2326 24
+Encoding: 23 2326 24
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -1763,7 +1766,7 @@ Validated: 5
 EndChar
 
 StartChar: ga
-Encoding: 2327 2327 25
+Encoding: 24 2327 25
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -1818,7 +1821,7 @@ Validated: 5
 EndChar
 
 StartChar: Ga
-Encoding: 2328 2328 26
+Encoding: 25 2328 26
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -1887,7 +1890,7 @@ Validated: 5
 EndChar
 
 StartChar: nga
-Encoding: 2329 2329 27
+Encoding: 26 2329 27
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -1953,7 +1956,7 @@ Validated: 5
 EndChar
 
 StartChar: xa
-Encoding: 2330 2330 28
+Encoding: 27 2330 28
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -2009,7 +2012,7 @@ Validated: 5
 EndChar
 
 StartChar: Xa
-Encoding: 2331 2331 29
+Encoding: 28 2331 29
 Width: 1024
 GlyphClass: 1
 AnchorPoint: "mark_up" 640 1024 basechar 0
@@ -2092,7 +2095,7 @@ Validated: 5
 EndChar
 
 StartChar: ja
-Encoding: 2332 2332 30
+Encoding: 29 2332 30
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -2153,7 +2156,7 @@ Validated: 5
 EndChar
 
 StartChar: Ja
-Encoding: 2333 2333 31
+Encoding: 30 2333 31
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -2227,7 +2230,7 @@ Validated: 5
 EndChar
 
 StartChar: nya
-Encoding: 2334 2334 32
+Encoding: 31 2334 32
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -2293,7 +2296,7 @@ Validated: 5
 EndChar
 
 StartChar: ta
-Encoding: 2335 2335 33
+Encoding: 32 2335 33
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -2347,7 +2350,7 @@ Validated: 5
 EndChar
 
 StartChar: Ta
-Encoding: 2336 2336 34
+Encoding: 33 2336 34
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -2409,7 +2412,7 @@ Validated: 5
 EndChar
 
 StartChar: da
-Encoding: 2337 2337 35
+Encoding: 34 2337 35
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -2466,7 +2469,7 @@ Validated: 5
 EndChar
 
 StartChar: Da
-Encoding: 2338 2338 36
+Encoding: 35 2338 36
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -2536,7 +2539,7 @@ Validated: 5
 EndChar
 
 StartChar: Na
-Encoding: 2339 2339 37
+Encoding: 36 2339 37
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -2596,64 +2599,64 @@ Validated: 5
 EndChar
 
 StartChar: tha
-Encoding: 2340 2340 38
-Width: 816
+Encoding: 37 2340 38
+Width: 804
 GlyphClass: 1
 Flags: W
-AnchorPoint: "mark_down" 560.188 128 basechar 0
-AnchorPoint: "mark_up" 560.188 1024 basechar 0
+AnchorPoint: "mark_down" 552.968 128 basechar 0
+AnchorPoint: "mark_up" 552.968 1024 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-48.1884765625 256 m 1,0,-1
- 48.1884765625 384 l 1,1,-1
- 48.1884765625 512 l 1,2,-1
- 176.188476562 512 l 1,3,-1
- 176.188476562 384 l 1,4,-1
- 176.188476562 256 l 1,5,-1
- 48.1884765625 256 l 1,0,-1
-48.1884765625 896 m 1,6,-1
- 48.1884765625 1024 l 1,7,-1
- 176.188476562 1024 l 1,8,-1
- 304.188476562 1024 l 1,9,-1
- 432.188476562 1024 l 1,10,-1
- 560.188476562 1024 l 1,11,-1
- 688.188476562 1024 l 1,12,-1
- 688.188476562 896 l 1,13,-1
- 688.188476562 768 l 1,14,-1
- 688.188476562 640 l 1,15,-1
- 688.188476562 512 l 1,16,-1
- 688.188476562 384 l 1,17,-1
- 688.188476562 256 l 1,18,-1
- 688.188476562 128 l 1,19,-1
- 560.188476562 128 l 1,20,-1
- 560.188476562 256 l 1,21,-1
- 560.188476562 384 l 1,22,-1
- 560.188476562 512 l 1,23,-1
- 432.188476562 512 l 1,24,-1
- 304.188476562 512 l 1,25,-1
- 176.188476562 512 l 1,26,-1
- 176.188476562 640 l 1,27,-1
- 304.188476562 640 l 1,28,-1
- 432.188476562 640 l 1,29,-1
- 560.188476562 640 l 1,30,-1
- 560.188476562 768 l 1,31,-1
- 560.188476562 896 l 1,32,-1
- 432.188476562 896 l 1,33,-1
- 304.188476562 896 l 1,34,-1
- 176.188476562 896 l 1,35,-1
- 48.1884765625 896 l 1,6,-1
-176.188476562 128 m 1,36,-1
- 176.188476562 256 l 1,37,-1
- 304.188476562 256 l 1,38,-1
- 304.188476562 128 l 1,39,-1
- 176.188476562 128 l 1,36,-1
+40.9677734375 256 m 1,0,-1
+ 40.9677734375 384 l 1,1,-1
+ 40.9677734375 512 l 1,2,-1
+ 168.967773438 512 l 1,3,-1
+ 168.967773438 384 l 1,4,-1
+ 168.967773438 256 l 1,5,-1
+ 40.9677734375 256 l 1,0,-1
+40.9677734375 896 m 1,6,-1
+ 40.9677734375 1024 l 1,7,-1
+ 168.967773438 1024 l 1,8,-1
+ 296.967773438 1024 l 1,9,-1
+ 424.967773438 1024 l 1,10,-1
+ 552.967773438 1024 l 1,11,-1
+ 680.967773438 1024 l 1,12,-1
+ 680.967773438 896 l 1,13,-1
+ 680.967773438 768 l 1,14,-1
+ 680.967773438 640 l 1,15,-1
+ 680.967773438 512 l 1,16,-1
+ 680.967773438 384 l 1,17,-1
+ 680.967773438 256 l 1,18,-1
+ 680.967773438 128 l 1,19,-1
+ 552.967773438 128 l 1,20,-1
+ 552.967773438 256 l 1,21,-1
+ 552.967773438 384 l 1,22,-1
+ 552.967773438 512 l 1,23,-1
+ 424.967773438 512 l 1,24,-1
+ 296.967773438 512 l 1,25,-1
+ 168.967773438 512 l 1,26,-1
+ 168.967773438 640 l 1,27,-1
+ 296.967773438 640 l 1,28,-1
+ 424.967773438 640 l 1,29,-1
+ 552.967773438 640 l 1,30,-1
+ 552.967773438 768 l 1,31,-1
+ 552.967773438 896 l 1,32,-1
+ 424.967773438 896 l 1,33,-1
+ 296.967773438 896 l 1,34,-1
+ 168.967773438 896 l 1,35,-1
+ 40.9677734375 896 l 1,6,-1
+168.967773438 128 m 1,36,-1
+ 168.967773438 256 l 1,37,-1
+ 296.967773438 256 l 1,38,-1
+ 296.967773438 128 l 1,39,-1
+ 168.967773438 128 l 1,36,-1
 EndSplineSet
 Validated: 5
 EndChar
 
 StartChar: Tha
-Encoding: 2341 2341 39
+Encoding: 38 2341 39
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -2720,7 +2723,7 @@ Validated: 5
 EndChar
 
 StartChar: dha
-Encoding: 2342 2342 40
+Encoding: 39 2342 40
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -2782,7 +2785,7 @@ Validated: 5
 EndChar
 
 StartChar: Dha
-Encoding: 2343 2343 41
+Encoding: 40 2343 41
 Width: 1024
 GlyphClass: 1
 AnchorPoint: "mark_down" 640 128 basechar 0
@@ -2849,7 +2852,7 @@ Validated: 5
 EndChar
 
 StartChar: na
-Encoding: 2344 2344 42
+Encoding: 41 2344 42
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -2894,7 +2897,7 @@ Validated: 1
 EndChar
 
 StartChar: pa
-Encoding: 2346 2346 43
+Encoding: 42 2346 43
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -2939,7 +2942,7 @@ Validated: 5
 EndChar
 
 StartChar: Pa
-Encoding: 2347 2347 44
+Encoding: 43 2347 44
 Width: 1024
 GlyphClass: 1
 AnchorPoint: "mark_down" 384 128 basechar 0
@@ -3005,7 +3008,7 @@ Validated: 5
 EndChar
 
 StartChar: ba
-Encoding: 2348 2348 45
+Encoding: 44 2348 45
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -3065,7 +3068,7 @@ Validated: 5
 EndChar
 
 StartChar: Ba
-Encoding: 2349 2349 46
+Encoding: 45 2349 46
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -3131,7 +3134,7 @@ Validated: 5
 EndChar
 
 StartChar: ma
-Encoding: 2350 2350 47
+Encoding: 46 2350 47
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -3188,7 +3191,7 @@ Validated: 5
 EndChar
 
 StartChar: ya
-Encoding: 2351 2351 48
+Encoding: 47 2351 48
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -3248,7 +3251,7 @@ Validated: 5
 EndChar
 
 StartChar: ra
-Encoding: 2352 2352 49
+Encoding: 48 2352 49
 Width: 512
 GlyphClass: 1
 Flags: W
@@ -3294,7 +3297,7 @@ Validated: 5
 EndChar
 
 StartChar: la
-Encoding: 2354 2354 50
+Encoding: 49 2354 50
 Width: 1024
 GlyphClass: 1
 AnchorPoint: "mark_down" 768 128 basechar 0
@@ -3360,7 +3363,7 @@ Validated: 5
 EndChar
 
 StartChar: La
-Encoding: 2355 2355 51
+Encoding: 50 2355 51
 Width: 1024
 GlyphClass: 1
 AnchorPoint: "mark_up" 640 1024 basechar 0
@@ -3438,7 +3441,7 @@ Validated: 5
 EndChar
 
 StartChar: wa
-Encoding: 2357 2357 52
+Encoding: 51 2357 52
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -3490,7 +3493,7 @@ Validated: 5
 EndChar
 
 StartChar: Sa
-Encoding: 2358 2358 53
+Encoding: 52 2358 53
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -3570,7 +3573,7 @@ Validated: 5
 EndChar
 
 StartChar: za
-Encoding: 2359 2359 54
+Encoding: 53 2359 54
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -3621,7 +3624,7 @@ Validated: 5
 EndChar
 
 StartChar: sa
-Encoding: 2360 2360 55
+Encoding: 54 2360 55
 Width: 896
 GlyphClass: 1
 Flags: W
@@ -3689,7 +3692,7 @@ Validated: 5
 EndChar
 
 StartChar: ha
-Encoding: 2361 2361 56
+Encoding: 55 2361 56
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -3751,7 +3754,7 @@ Validated: 5
 EndChar
 
 StartChar: uni093C
-Encoding: 2364 2364 57
+Encoding: 56 2364 57
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -3771,7 +3774,7 @@ Validated: 1
 EndChar
 
 StartChar: uni093D
-Encoding: 2365 2365 58
+Encoding: 57 2365 58
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -3826,10 +3829,11 @@ Validated: 37
 EndChar
 
 StartChar: uni093E
-Encoding: 2366 2366 59
+Encoding: 58 2366 59
 Width: 256
 GlyphClass: 1
 Flags: W
+AnchorPoint: "mark_up" 0 1024 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3853,11 +3857,11 @@ SplineSet
  0 896 l 1,17,-1
  -128 896 l 1,0,-1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: short_i
-Encoding: 2367 2367 60
+Encoding: 59 2367 60
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -3903,7 +3907,7 @@ Validated: 5
 EndChar
 
 StartChar: long_i
-Encoding: 2368 2368 61
+Encoding: 60 2368 61
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -3954,7 +3958,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0941
-Encoding: 2369 2369 62
+Encoding: 61 2369 62
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -3994,7 +3998,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0942
-Encoding: 2370 2370 63
+Encoding: 62 2370 63
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4034,7 +4038,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0943
-Encoding: 2371 2371 64
+Encoding: 63 2371 64
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4062,7 +4066,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0944
-Encoding: 2372 2372 65
+Encoding: 64 2372 65
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4102,7 +4106,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0945
-Encoding: 2373 2373 66
+Encoding: 65 2373 66
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4130,7 +4134,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0946
-Encoding: 2374 2374 67
+Encoding: 66 2374 67
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4165,7 +4169,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0947
-Encoding: 2375 2375 68
+Encoding: 67 2375 68
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4193,7 +4197,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0948
-Encoding: 2376 2376 69
+Encoding: 68 2376 69
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4233,7 +4237,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0949
-Encoding: 2377 2377 70
+Encoding: 69 2377 70
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -4279,7 +4283,7 @@ Validated: 5
 EndChar
 
 StartChar: uni094A
-Encoding: 2378 2378 71
+Encoding: 70 2378 71
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -4332,7 +4336,7 @@ Validated: 5
 EndChar
 
 StartChar: uni094B
-Encoding: 2379 2379 72
+Encoding: 71 2379 72
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -4378,7 +4382,7 @@ Validated: 5
 EndChar
 
 StartChar: uni094C
-Encoding: 2380 2380 73
+Encoding: 72 2380 73
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -4436,7 +4440,7 @@ Validated: 5
 EndChar
 
 StartChar: halant
-Encoding: 2381 2381 74
+Encoding: 73 2381 74
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4459,7 +4463,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0951
-Encoding: 2384 2384 75
+Encoding: -1 2384 75
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -4553,7 +4557,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0950
-Encoding: 2384 2384 76
+Encoding: 74 2384 76
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -4647,7 +4651,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0960
-Encoding: 2400 2400 77
+Encoding: 76 2400 77
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -4745,7 +4749,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0961
-Encoding: 2401 2401 78
+Encoding: 77 2401 78
 Width: 1152
 GlyphClass: 1
 Flags: W
@@ -4833,7 +4837,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0962
-Encoding: 2402 2402 79
+Encoding: 78 2402 79
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4885,7 +4889,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0963
-Encoding: 2403 2403 80
+Encoding: 79 2403 80
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -4949,7 +4953,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0964
-Encoding: 2404 2404 81
+Encoding: 80 2404 81
 Width: 256
 GlyphClass: 1
 Flags: W
@@ -4966,7 +4970,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0965
-Encoding: 2405 2405 82
+Encoding: 81 2405 82
 Width: 512
 GlyphClass: 1
 Flags: W
@@ -4988,7 +4992,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0966
-Encoding: 2406 2406 83
+Encoding: 82 2406 83
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -5040,7 +5044,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0967
-Encoding: 2407 2407 84
+Encoding: 83 2407 84
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -5099,7 +5103,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0968
-Encoding: 2408 2408 85
+Encoding: 84 2408 85
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -5150,7 +5154,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0969
-Encoding: 2409 2409 86
+Encoding: 85 2409 86
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -5209,7 +5213,7 @@ Validated: 5
 EndChar
 
 StartChar: uni096A
-Encoding: 2410 2410 87
+Encoding: 86 2410 87
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -5269,7 +5273,7 @@ Validated: 5
 EndChar
 
 StartChar: uni096B
-Encoding: 2411 2411 88
+Encoding: 87 2411 88
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -5310,7 +5314,7 @@ Validated: 5
 EndChar
 
 StartChar: uni096C
-Encoding: 2412 2412 89
+Encoding: 88 2412 89
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -5366,7 +5370,7 @@ Validated: 5
 EndChar
 
 StartChar: uni096D
-Encoding: 2413 2413 90
+Encoding: 89 2413 90
 Width: 768
 GlyphClass: 1
 Flags: W
@@ -5423,7 +5427,7 @@ Validated: 5
 EndChar
 
 StartChar: uni096E
-Encoding: 2414 2414 91
+Encoding: 90 2414 91
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -5469,7 +5473,7 @@ Validated: 5
 EndChar
 
 StartChar: uni096F
-Encoding: 2415 2415 92
+Encoding: 91 2415 92
 Width: 640
 GlyphClass: 1
 Flags: W
@@ -5528,7 +5532,7 @@ Validated: 5
 EndChar
 
 StartChar: bar_extend_one
-Encoding: 65537 -1 93
+Encoding: 93 -1 93
 Width: 128
 Flags: W
 LayerCount: 2
@@ -5546,62 +5550,64 @@ Validated: 1
 EndChar
 
 StartChar: thra
-Encoding: 65538 -1 94
+Encoding: 94 -1 94
 Width: 640
 Flags: W
-AnchorPoint: "mark_down" 384 128 basechar 0
-AnchorPoint: "mark_up" 384 1024 basechar 0
+AnchorPoint: "mark_down" 383.76 128 basechar 0
+AnchorPoint: "mark_up" 383.76 1024 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-0 256 m 1,0,-1
- 0 384 l 1,1,-1
- 128 384 l 1,2,-1
- 128 256 l 1,3,-1
- 0 256 l 1,0,-1
-0 640 m 1,4,-1
- 0 768 l 1,5,-1
- 128 768 l 1,6,-1
- 256 768 l 1,7,-1
- 256 640 l 1,8,-1
- 128 640 l 1,9,-1
- 0 640 l 1,4,-1
-0 896 m 1,10,-1
- 0 1024 l 1,11,-1
- 128 1024 l 1,12,-1
- 256 1024 l 1,13,-1
- 384 1024 l 1,14,-1
- 512 1024 l 1,15,-1
- 512 896 l 1,16,-1
- 512 768 l 1,17,-1
- 512 640 l 1,18,-1
- 512 512 l 1,19,-1
- 512 384 l 1,20,-1
- 512 256 l 1,21,-1
- 512 128 l 1,22,-1
- 384 128 l 1,23,-1
- 384 256 l 1,24,-1
- 384 384 l 1,25,-1
- 384 512 l 1,26,-1
- 256 512 l 1,27,-1
- 256 640 l 1,28,-1
- 384 640 l 1,29,-1
- 384 768 l 1,30,-1
- 384 896 l 1,31,-1
- 256 896 l 1,32,-1
- 128 896 l 1,33,-1
- 0 896 l 1,10,-1
-128 384 m 1,34,-1
- 128 512 l 1,35,-1
- 256 512 l 1,36,-1
- 256 384 l 1,37,-1
- 128 384 l 1,34,-1
+-0.240234375 256 m 1,0,-1
+ -0.240234375 384 l 1,1,-1
+ 127.759765625 384 l 1,2,-1
+ 127.759765625 256 l 1,3,-1
+ -0.240234375 256 l 1,0,-1
+-0.240234375 640 m 1,4,-1
+ -0.240234375 768 l 1,5,-1
+ 127.759765625 768 l 1,6,-1
+ 255.759765625 768 l 1,7,-1
+ 255.759765625 640 l 1,8,-1
+ 127.759765625 640 l 1,9,-1
+ -0.240234375 640 l 1,4,-1
+-0.240234375 896 m 1,10,-1
+ -0.240234375 1024 l 1,11,-1
+ 127.759765625 1024 l 1,12,-1
+ 255.759765625 1024 l 1,13,-1
+ 383.759765625 1024 l 1,14,-1
+ 511.759765625 1024 l 1,15,-1
+ 511.759765625 896 l 1,16,-1
+ 511.759765625 768 l 1,17,-1
+ 511.759765625 640 l 1,18,-1
+ 511.759765625 512 l 1,19,-1
+ 511.759765625 384 l 1,20,-1
+ 511.759765625 256 l 1,21,-1
+ 511.759765625 128 l 1,22,-1
+ 383.759765625 128 l 1,23,-1
+ 383.759765625 256 l 1,24,-1
+ 383.759765625 384 l 1,25,-1
+ 383.759765625 512 l 1,26,-1
+ 255.759765625 512 l 1,27,-1
+ 255.759765625 640 l 1,28,-1
+ 383.759765625 640 l 1,29,-1
+ 383.759765625 768 l 1,30,-1
+ 383.759765625 896 l 1,31,-1
+ 255.759765625 896 l 1,32,-1
+ 127.759765625 896 l 1,33,-1
+ -0.240234375 896 l 1,10,-1
+127.759765625 384 m 1,34,-1
+ 127.759765625 512 l 1,35,-1
+ 255.759765625 512 l 1,36,-1
+ 255.759765625 384 l 1,37,-1
+ 127.759765625 384 l 1,34,-1
 EndSplineSet
-Validated: 5
+Validated: 524293
+Ligature2: "Irregular subtable" tha halant ra
+LCarets2: 2 0 0
 EndChar
 
 StartChar: bar_fill_gap
-Encoding: 65539 -1 95
+Encoding: 95 -1 95
 Width: 0
 Flags: W
 LayerCount: 2
@@ -5619,7 +5625,7 @@ Validated: 1
 EndChar
 
 StartChar: la_variant
-Encoding: 65540 -1 96
+Encoding: 96 -1 96
 Width: 1024
 Flags: W
 LayerCount: 2
@@ -5689,7 +5695,7 @@ Validated: 5
 EndChar
 
 StartChar: ka_half
-Encoding: 65541 -1 97
+Encoding: 97 -1 97
 Width: 768
 Flags: W
 LayerCount: 2
@@ -5743,10 +5749,11 @@ SplineSet
  0 896 l 1,6,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" ka halant
 EndChar
 
 StartChar: Ka_half
-Encoding: 65542 -1 98
+Encoding: 98 -1 98
 Width: 896
 Flags: W
 LayerCount: 2
@@ -5824,10 +5831,11 @@ SplineSet
  512 384 l 1,58,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Ka halant
 EndChar
 
 StartChar: ga_half
-Encoding: 65543 -1 99
+Encoding: 99 -1 99
 Width: 512
 Flags: W
 LayerCount: 2
@@ -5862,10 +5870,11 @@ SplineSet
  128 384 l 1,20,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" ga halant
 EndChar
 
 StartChar: Ga_half
-Encoding: 65544 -1 100
+Encoding: 100 -1 100
 Width: 640
 Flags: W
 LayerCount: 2
@@ -5918,10 +5927,11 @@ SplineSet
  256 512 l 1,36,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Ga halant
 EndChar
 
 StartChar: xa_half
-Encoding: 65545 -1 101
+Encoding: 101 -1 101
 Width: 640
 Flags: W
 LayerCount: 2
@@ -5962,10 +5972,11 @@ SplineSet
  0 896 l 1,10,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" xa halant
 EndChar
 
 StartChar: ja_half
-Encoding: 65546 -1 102
+Encoding: 102 -1 102
 Width: 640
 Flags: W
 LayerCount: 2
@@ -6009,10 +6020,11 @@ SplineSet
  128 256 l 1,27,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" ja halant
 EndChar
 
 StartChar: nya_half
-Encoding: 65547 -1 103
+Encoding: 103 -1 103
 Width: 640
 Flags: W
 LayerCount: 2
@@ -6061,10 +6073,11 @@ SplineSet
  128 640 l 1,31,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" nya halant
 EndChar
 
 StartChar: Ja_half
-Encoding: 65548 -1 104
+Encoding: 104 -1 104
 Width: 640
 Flags: W
 LayerCount: 2
@@ -6123,10 +6136,11 @@ SplineSet
  128 384 l 1,41,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Ja halant
 EndChar
 
 StartChar: Na_half
-Encoding: 65549 -1 105
+Encoding: 105 -1 105
 Width: 640
 Flags: W
 LayerCount: 2
@@ -6166,10 +6180,11 @@ SplineSet
  128 384 l 1,24,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Na halant
 EndChar
 
 StartChar: tha_half
-Encoding: 65550 -1 106
+Encoding: 106 -1 106
 Width: 512
 Flags: W
 LayerCount: 2
@@ -6209,10 +6224,11 @@ SplineSet
  128 128 l 1,25,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" tha halant
 EndChar
 
 StartChar: Tha_half
-Encoding: 65551 -1 107
+Encoding: 107 -1 107
 Width: 512
 Flags: W
 LayerCount: 2
@@ -6259,10 +6275,11 @@ SplineSet
  384 512 l 1,28,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Tha halant
 EndChar
 
 StartChar: Dha_half
-Encoding: 65552 -1 108
+Encoding: 108 -1 108
 Width: 640
 Flags: W
 LayerCount: 2
@@ -6314,10 +6331,11 @@ SplineSet
  512 896 l 1,28,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Dha halant
 EndChar
 
 StartChar: na_half
-Encoding: 65553 -1 109
+Encoding: 109 -1 109
 Width: 384
 Flags: W
 LayerCount: 2
@@ -6345,10 +6363,11 @@ SplineSet
  0 384 l 1,0,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" na halant
 EndChar
 
 StartChar: pa_half
-Encoding: 65554 -1 110
+Encoding: 110 -1 110
 Width: 384
 Flags: W
 LayerCount: 2
@@ -6376,10 +6395,11 @@ SplineSet
  0 640 l 1,0,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" pa halant
 EndChar
 
 StartChar: ba_half
-Encoding: 65555 -1 111
+Encoding: 111 -1 111
 Width: 512
 Flags: W
 LayerCount: 2
@@ -6424,10 +6444,11 @@ SplineSet
  0 896 l 1,6,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" ba halant
 EndChar
 
 StartChar: Ba_half
-Encoding: 65556 -1 112
+Encoding: 112 -1 112
 Width: 640
 Flags: W
 LayerCount: 2
@@ -6476,10 +6497,11 @@ SplineSet
  384 512 l 1,24,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Ba halant
 EndChar
 
 StartChar: ma_half
-Encoding: 65557 -1 113
+Encoding: 113 -1 113
 Width: 512
 Flags: W
 LayerCount: 2
@@ -6519,10 +6541,11 @@ SplineSet
  128 384 l 1,25,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" ma halant
 EndChar
 
 StartChar: ya_half
-Encoding: 65558 -1 114
+Encoding: 114 -1 114
 Width: 512
 Flags: W
 LayerCount: 2
@@ -6565,10 +6588,11 @@ SplineSet
  128 640 l 1,27,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" ya halant
 EndChar
 
 StartChar: la_half
-Encoding: 65559 -1 115
+Encoding: 115 -1 115
 Width: 768
 Flags: W
 LayerCount: 2
@@ -6617,10 +6641,11 @@ SplineSet
  384 384 l 1,32,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" la halant
 EndChar
 
 StartChar: wa_half
-Encoding: 65560 -1 116
+Encoding: 116 -1 116
 Width: 384
 Flags: W
 LayerCount: 2
@@ -6657,10 +6682,11 @@ SplineSet
  0 896 l 1,6,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" wa halant
 EndChar
 
 StartChar: Sa_half
-Encoding: 65561 -1 117
+Encoding: 117 -1 117
 Width: 640
 Flags: W
 LayerCount: 2
@@ -6720,10 +6746,11 @@ SplineSet
  512 896 l 1,38,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Sa halant
 EndChar
 
 StartChar: za_half
-Encoding: 65562 -1 118
+Encoding: 118 -1 118
 Width: 512
 Flags: W
 LayerCount: 2
@@ -6757,10 +6784,11 @@ SplineSet
  0 640 l 1,0,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" za halant
 EndChar
 
 StartChar: sa_half
-Encoding: 65563 -1 119
+Encoding: 119 -1 119
 Width: 640
 Flags: W
 LayerCount: 2
@@ -6810,10 +6838,11 @@ SplineSet
  256 128 l 1,34,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" sa halant
 EndChar
 
 StartChar: thra_half
-Encoding: 65564 -1 120
+Encoding: 120 -1 120
 Width: 384
 Flags: W
 LayerCount: 2
@@ -6852,10 +6881,11 @@ SplineSet
  128 384 l 1,23,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" thra halant
 EndChar
 
 StartChar: Pa_half
-Encoding: 65565 -1 121
+Encoding: 121 -1 121
 Width: 768
 Flags: W
 LayerCount: 2
@@ -6902,10 +6932,11 @@ SplineSet
  0 640 l 1,0,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Pa halant
 EndChar
 
 StartChar: gnya
-Encoding: 65566 -1 122
+Encoding: 122 -1 122
 Width: 1024
 AnchorPoint: "mark_down" 768 128 basechar 0
 AnchorPoint: "mark_up" 768 1024 basechar 0
@@ -6969,10 +7000,11 @@ SplineSet
  384 768 l 1,46,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Irregular subtable" ja halant nya
 EndChar
 
 StartChar: gnya_half
-Encoding: 65567 -1 123
+Encoding: 123 -1 123
 Width: 768
 Flags: W
 LayerCount: 2
@@ -7024,10 +7056,11 @@ SplineSet
  384 768 l 1,35,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" gnya halant
 EndChar
 
 StartChar: Xa_half
-Encoding: 65568 -1 124
+Encoding: 124 -1 124
 Width: 768
 Flags: W
 LayerCount: 2
@@ -7094,10 +7127,11 @@ SplineSet
  256 128 l 1,44,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" Xa halant
 EndChar
 
 StartChar: La_half
-Encoding: 65569 -1 125
+Encoding: 125 -1 125
 Width: 768
 Flags: W
 LayerCount: 2
@@ -7160,10 +7194,11 @@ SplineSet
  512 640 l 1,42,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" La halant
 EndChar
 
 StartChar: kza
-Encoding: 65570 -1 126
+Encoding: 126 -1 126
 Width: 896
 Flags: W
 AnchorPoint: "mark_down" 640 128 basechar 0
@@ -7245,10 +7280,12 @@ SplineSet
  512 512 l 1,42,-1
 EndSplineSet
 Validated: 5
+LCarets2: 2 0 0
+Ligature2: "Irregular subtable" ka halant za
 EndChar
 
 StartChar: kza_half
-Encoding: 65571 -1 127
+Encoding: 127 -1 127
 Width: 640
 Flags: W
 LayerCount: 2
@@ -7319,10 +7356,11 @@ SplineSet
  512 512 l 1,48,-1
 EndSplineSet
 Validated: 5
+Ligature2: "Halved subtable" kza halant
 EndChar
 
 StartChar: short_i_one
-Encoding: 65572 -1 128
+Encoding: 128 -1 128
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7367,7 +7405,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_two
-Encoding: 65573 -1 129
+Encoding: 129 -1 129
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7412,7 +7450,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_three
-Encoding: 65574 -1 130
+Encoding: 130 -1 130
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7457,7 +7495,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_four
-Encoding: 65575 -1 131
+Encoding: 131 -1 131
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7502,7 +7540,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_five
-Encoding: 65576 -1 132
+Encoding: 132 -1 132
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7547,7 +7585,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_six
-Encoding: 65577 -1 133
+Encoding: 133 -1 133
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7592,7 +7630,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_seven
-Encoding: 65578 -1 134
+Encoding: 134 -1 134
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7637,7 +7675,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_eight
-Encoding: 65579 -1 135
+Encoding: 135 -1 135
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7682,7 +7720,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_nine
-Encoding: 65580 -1 136
+Encoding: 136 -1 136
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7727,7 +7765,7 @@ Validated: 5
 EndChar
 
 StartChar: long_i_one
-Encoding: 65581 -1 137
+Encoding: 137 -1 137
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7777,7 +7815,7 @@ Validated: 5
 EndChar
 
 StartChar: long_i_two
-Encoding: 65582 -1 138
+Encoding: 138 -1 138
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7822,7 +7860,7 @@ Validated: 5
 EndChar
 
 StartChar: long_i_three
-Encoding: 65583 -1 139
+Encoding: 139 -1 139
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7867,7 +7905,7 @@ Validated: 5
 EndChar
 
 StartChar: long_i_four
-Encoding: 65584 -1 140
+Encoding: 140 -1 140
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7912,7 +7950,7 @@ Validated: 5
 EndChar
 
 StartChar: long_i_five
-Encoding: 65585 -1 141
+Encoding: 141 -1 141
 Width: 256
 Flags: W
 LayerCount: 2
@@ -7957,7 +7995,7 @@ Validated: 5
 EndChar
 
 StartChar: long_i_six
-Encoding: 65586 -1 142
+Encoding: 142 -1 142
 Width: 256
 Flags: W
 LayerCount: 2
@@ -8002,7 +8040,7 @@ Validated: 5
 EndChar
 
 StartChar: long_i_seven
-Encoding: 65587 -1 143
+Encoding: 143 -1 143
 Width: 256
 Flags: W
 LayerCount: 2
@@ -8047,7 +8085,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_ten
-Encoding: 65588 -1 144
+Encoding: 144 -1 144
 Width: 256
 Flags: W
 LayerCount: 2
@@ -8092,7 +8130,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_eleven
-Encoding: 65589 -1 145
+Encoding: 145 -1 145
 Width: 256
 Flags: W
 LayerCount: 2
@@ -8137,7 +8175,7 @@ Validated: 5
 EndChar
 
 StartChar: short_i_twelve
-Encoding: 65590 -1 146
+Encoding: 146 -1 146
 Width: 256
 Flags: W
 LayerCount: 2
@@ -8182,7 +8220,7 @@ Validated: 5
 EndChar
 
 StartChar: ru_short
-Encoding: 65591 -1 147
+Encoding: 147 -1 147
 Width: 896
 Flags: W
 LayerCount: 2
@@ -8249,10 +8287,11 @@ SplineSet
  256 128 l 1,46,-1
 EndSplineSet
 Validated: 5
+Ligature2: "SpecialR subtable" ra uni0941
 EndChar
 
 StartChar: ru_long
-Encoding: 65592 -1 148
+Encoding: 148 -1 148
 Width: 1152
 Flags: W
 LayerCount: 2
@@ -8326,10 +8365,11 @@ SplineSet
  256 128 l 1,52,-1
 EndSplineSet
 Validated: 5
+Ligature2: "SpecialR subtable" ra uni0942
 EndChar
 
 StartChar: ra_mark_full
-Encoding: 65593 -1 149
+Encoding: 149 -1 149
 Width: 0
 Flags: W
 AnchorPoint: "mark_down" -256 128 mark 0
@@ -8356,26 +8396,26 @@ Validated: 5
 EndChar
 
 StartChar: uni0951
-Encoding: 2385 2385 150
+Encoding: 75 2385 150
 Width: 0
 Flags: W
 AnchorPoint: "mark_up" -128 1024 mark 0
 LayerCount: 2
 Fore
 SplineSet
--128 1152 m 1024,0,-1
-0 1152 m 1024,1,-1
--128 1152 m 1,2,-1
- -128 1408 l 1,3,-1
- 0 1408 l 1,4,-1
- 0 1152 l 1,5,-1
- -128 1152 l 1,2,-1
+-128 1152 m 1028,0,-1
+0 1152 m 1028,1,-1
+-128 1152 m 5,2,-1
+ -128 1408 l 5,3,-1
+ 0 1408 l 5,4,-1
+ 0 1152 l 5,5,-1
+ -128 1152 l 5,2,-1
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: dhya
-Encoding: 65594 -1 151
+Encoding: 150 -1 151
 Width: 896
 Flags: W
 AnchorPoint: "mark_up" 640 1024 basechar 0
@@ -8438,6 +8478,169 @@ SplineSet
  384 640 l 1,48,-1
  384 512 l 1,49,-1
  256 512 l 1,46,-1
+EndSplineSet
+Validated: 5
+LCarets2: 2 0 0
+Ligature2: "Irregular subtable" dha halant ya
+EndChar
+
+StartChar: short_i_two_r
+Encoding: 151 -1 152
+Width: 256
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+512 1280 m 1029,0,-1
+640 1280 m 1029,1,-1
+512 1280 m 5,2,-1
+ 512 1408 l 5,3,-1
+ 640 1408 l 5,4,-1
+ 640 1280 l 5,5,-1
+ 512 1280 l 5,2,-1
+0 128 m 1,6,-1
+ 0 256 l 1,7,-1
+ 0 384 l 1,8,-1
+ 0 512 l 1,9,-1
+ 0 640 l 1,10,-1
+ 0 768 l 1,11,-1
+ 0 896 l 1,12,-1
+ 0 1024 l 1,13,-1
+ 0 1152 l 1,14,-1
+ 0 1280 l 1,15,-1
+ 128 1280 l 1,16,-1
+ 128 1152 l 1,17,-1
+ 128 1024 l 1,18,-1
+ 384 1024 l 1,19,-1
+ 384 1152 l 1,20,-1
+ 384 1280 l 1,21,-1
+ 512 1280 l 1,22,-1
+ 512 1152 l 1,23,-1
+ 512 1024 l 1,24,-1
+ 512 896 l 1,25,-1
+ 384 896 l 1,26,-1
+ 128 896 l 1,27,-1
+ 128 768 l 1,28,-1
+ 128 640 l 1,29,-1
+ 128 512 l 1,30,-1
+ 128 384 l 1,31,-1
+ 128 256 l 1,32,-1
+ 128 128 l 1,33,-1
+ 0 128 l 1,6,-1
+128 1280 m 1,34,-1
+ 128 1408 l 1,35,-1
+ 384 1408 l 1,36,-1
+ 384 1280 l 1,37,-1
+ 128 1280 l 1,34,-1
+EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: long_i_one_r
+Encoding: 152 -1 153
+Width: 256
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+128 1280 m 1029,0,-1
+256 1280 m 1029,1,-1
+128 1280 m 5,2,-1
+ 128 1408 l 5,3,-1
+ 256 1408 l 5,4,-1
+ 256 1280 l 5,5,-1
+ 128 1280 l 5,2,-1
+-384 1152 m 1025,6,-1
+-256 1152 m 1025,7,-1
+-384 1152 m 1,8,-1
+ -384 1280 l 1,9,-1
+ -256 1280 l 1,10,-1
+ -256 1152 l 1,11,-1
+ -384 1152 l 1,8,-1
+-256 896 m 1,12,-1
+ -256 1024 l 1,13,-1
+ -256 1152 l 1,14,-1
+ -128 1152 l 1,15,-1
+ -128 1024 l 1,16,-1
+ 0 1024 l 1,17,-1
+ 0 1152 l 1,18,-1
+ 0 1280 l 1,19,-1
+ 128 1280 l 1,20,-1
+ 128 1152 l 1,21,-1
+ 128 1024 l 1,22,-1
+ 128 896 l 1,23,-1
+ 128 768 l 1,24,-1
+ 128 640 l 1,25,-1
+ 128 512 l 1,26,-1
+ 128 384 l 1,27,-1
+ 128 256 l 1,28,-1
+ 128 128 l 1,29,-1
+ 0 128 l 1,30,-1
+ 0 256 l 1,31,-1
+ 0 384 l 1,32,-1
+ 0 512 l 1,33,-1
+ 0 640 l 1,34,-1
+ 0 768 l 1,35,-1
+ 0 896 l 1,36,-1
+ -128 896 l 1,37,-1
+ -256 896 l 1,12,-1
+-256 1280 m 1,38,-1
+ -256 1408 l 1,39,-1
+ 0 1408 l 1,40,-1
+ 0 1280 l 1,41,-1
+ -256 1280 l 1,38,-1
+EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: ra_half_down
+Encoding: 153 -1 154
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-384 128 m 1,0,-1
+ -256 128 l 1,1,-1
+ -256 0 l 1,2,-1
+ -384 0 l 1,3,-1
+ -384 128 l 1,0,-1
+-256 256 m 1,4,-1
+ -128 256 l 1,5,-1
+ -128 128 l 1,6,-1
+ -256 128 l 1,7,-1
+ -256 256 l 1,4,-1
+-128 384 m 1,8,-1
+ 0 384 l 1,9,-1
+ 0 256 l 1,10,-1
+ -128 256 l 1,11,-1
+ -128 384 l 1,8,-1
+EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: ra_half_up
+Encoding: 154 -1 155
+Width: 0
+Flags: W
+AnchorPoint: "mark_up" -256 1024 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-128 1280 m 1029,0,-1
+0 1280 m 1029,1,-1
+-128 1280 m 5,2,-1
+ -128 1408 l 5,3,-1
+ 0 1408 l 5,4,-1
+ 0 1280 l 5,5,-1
+ -128 1280 l 5,2,-1
+-256 1024 m 1028,6,-1
+-128 1024 m 1028,7,-1
+-256 1024 m 5,8,-1
+ -256 1280 l 5,9,-1
+ -128 1280 l 5,10,-1
+ -128 1024 l 5,11,-1
+ -256 1024 l 5,8,-1
 EndSplineSet
 Validated: 5
 EndChar
